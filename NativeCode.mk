@@ -66,7 +66,7 @@ $(foreach dir, \
 core_c_includes := libcore/include $(LOCAL_C_INCLUDES)
 core_shared_libraries := $(LOCAL_SHARED_LIBRARIES)
 core_static_libraries := $(LOCAL_STATIC_LIBRARIES)
-core_cflags := -Wall -Wextra -Werror -fno-strict-aliasing
+core_cflags := -Wall -Wextra -fno-strict-aliasing
 core_cppflags += -std=gnu++11 -fno-strict-aliasing
 
 core_test_files := \
